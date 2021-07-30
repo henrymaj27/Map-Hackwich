@@ -13,6 +13,7 @@
 		E1B9ADCB26B4550200A6F2D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B9ADCA26B4550200A6F2D1 /* Preview Assets.xcassets */; };
 		E1B9ADD626B4550200A6F2D1 /* Map_HackwichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B9ADD526B4550200A6F2D1 /* Map_HackwichTests.swift */; };
 		E1B9ADE126B4550200A6F2D1 /* Map_HackwichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B9ADE026B4550200A6F2D1 /* Map_HackwichUITests.swift */; };
+		E1B9ADEF26B4575400A6F2D1 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B9ADEE26B4575400A6F2D1 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E1B9ADDC26B4550200A6F2D1 /* Map HackwichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map HackwichUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B9ADE026B4550200A6F2D1 /* Map_HackwichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_HackwichUITests.swift; sourceTree = "<group>"; };
 		E1B9ADE226B4550200A6F2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B9ADEE26B4575400A6F2D1 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				E1B9ADC326B454FF00A6F2D1 /* Map_HackwichApp.swift */,
 				E1B9ADC526B454FF00A6F2D1 /* ContentView.swift */,
+				E1B9ADEE26B4575400A6F2D1 /* LocationManager.swift */,
 				E1B9ADC726B4550200A6F2D1 /* Assets.xcassets */,
 				E1B9ADCC26B4550200A6F2D1 /* Info.plist */,
 				E1B9ADC926B4550200A6F2D1 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				E1B9ADC626B454FF00A6F2D1 /* ContentView.swift in Sources */,
 				E1B9ADC426B454FF00A6F2D1 /* Map_HackwichApp.swift in Sources */,
+				E1B9ADEF26B4575400A6F2D1 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
